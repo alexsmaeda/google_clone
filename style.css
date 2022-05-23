@@ -1,0 +1,165 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search_form {
+    margin-top: 10%;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+#logo {
+    width: 30%;
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+
+#google {
+    text-align: center;
+    width: 70%;
+    max-width: 400px;
+    padding: 12px 20px;
+    margin: -2px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;   
+}
+
+.c_header_nav {
+    padding-right: 16px;
+}
+
+.c_nav li {
+    padding: 0px 3px;
+    text-align: right;
+    list-style-type: none;
+}
+
+.c_nav a {
+    list-style: none;
+    display: inline;
+    color:black;
+    text-decoration: none;
+    text-align: right;
+}
+
+.c_nav a:hover {
+    color: rgb(191, 233, 247);
+    text-decoration: underline;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(191, 233, 247);
+}
+
+#logo_image {
+    width: 30%;
+    min-width: 430px;
+    margin-bottom: 10px;
+    margin-bottom: -20px;
+}
+
+.image_searchform {
+    text-align: center;
+    margin-top: 9%;
+    display: inline-block;
+    width: 100%;
+}
+
+.advbar {
+    display:block;
+    text-align: left;
+    color: #d93025;
+    margin-left: 10px;
+    font: 400;
+    font-size: 25px;
+}
+
+.advanced {
+    text-align: left;
+    margin-top: 2%;
+    margin-left: 45px;
+    display: inline-block;
+    width: 100%;
+}
+
+.image_advanced {
+    width: 44%;
+    min-width: 300px;
+    margin-bottom: 10px;
+}
+
+.logo_advanced {
+    width: 130px;
+    min-width: 30px;
+    margin-bottom: 1%;
+    display: table;
+    float: left;
+    padding-left: 6px;
+    padding-top: 6px;
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation li {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 7px;
+    font-size: 14px;
+}
+
+.advinp_block {
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.advinp {
+    margin-top: 10px;
+    line-height: 16px;
+}
+
+.advinp label {
+    display: inline-block;
+    width: 240px;
+}
+
+.textinput {
+    width: 30%;
+    font-size: 13px;
+    height: 25px;
+    padding-left: 6px;
+}
+
+.textinput:focus {
+    border: 1.8px solid rgb(57, 127, 197) !important;
+}
+
+.advinp input:focus, textarea:focus, select:focus {
+    outline-offset: 0px !important;
+    outline: none !important;
+}
+
+.advbutton {
+    margin-top: 30px;
+    text-align: center;
+    width: 70%;
+    max-width: 150px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 10px; 
+    float: left;
+}
+
+.googlesearch {
+    text-align: center;
+    width: 50%;
+    max-width: 200px;
+    padding: 12px 20px;
+    margin: -2px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
